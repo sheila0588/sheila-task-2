@@ -1,0 +1,343 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.active {
+    color: rgb(189, 189, 189);
+}
+
+.header_container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    background: #2665ad;
+    color: white;
+    padding: 20px 0;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}
+
+nav {
+    display: flex;
+    padding: 0 50px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    padding: 0;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    background: url('Casa\ Dental\ Clinic\ Interface.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 3em;
+}
+
+#hero p {
+    font-size: 1.5em;
+}
+
+.cta-button {
+    background: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.about-container {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+#services, #about, #team, #contact {
+    padding: 50px;
+    text-align: center;
+}
+
+#services h2, #about h2, #team h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.service h3, .team-member h3 {
+    font-size: 1.5em;
+    color: #4CAF50;
+}
+
+.team_container, .services_container {
+    display: flex;
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 0 50px;
+}
+
+.service, .team-member {
+    width: 325px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+}
+
+#contact {
+    background-color: #333;
+    margin: -20px 0;
+}
+
+#contact p, h2 {
+    color: white;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+/* home page ends here */
+
+#about-intro, #our-mission, #history, #values, #testimonials {
+    padding: 50px 0;
+    text-align: center;
+}
+
+#about-intro h2, #our-mission h2, #history h2, #values h2, #testimonials h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+#about-intro p, #our-mission p, #history p, .testimonial p {
+    font-size: 1.2em;
+}
+
+#values ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#values ul li {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+.testimonial {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.about-p {
+    width: 50%;
+    text-align: center;
+    /* max-width: 50%; */
+    margin: 0 auto;
+}
+
+.about-h2 {
+    color: black;
+}
+
+/* about us page ends here */
+
+#services-page {
+    padding: 50px;
+    text-align: center;
+    max-width: 1000px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+#services-page h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    color: black;
+}
+
+#services-page p {
+    font-size: 1.2em;
+    margin: 20px;
+}
+
+.service-item {
+    margin-bottom: 40px;
+    display: block;
+}
+
+.service-item h3 {
+    font-size: 2em;
+    color: #4CAF50;
+    margin-bottom: 30px;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.service-item p {
+    font-size: 1em;
+    color: #555;
+}
+
+.service_item_container {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+    padding: 0 50px ;
+    /* flex-wrap: wrap; */
+}
+
+/* services ends here */
+
+#contact-info, #contact-form {
+    padding: 50px 0;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+}
+
+#contact-info h2, #contact-form h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact-methods {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.contact-method {
+    width: 45%;
+    margin: 20px 0;
+}
+
+.contact-method h3 {
+    font-size: 2em;
+    color: #4CAF50;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cta-button {
+    background: #FF5722;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* book registration css codes */
+
+#bookAppointment {
+    max-width: 800%;
+    text-align: center;
+    margin: 50px 0 50px 0;
+}
+
+.form-group {
+    max-width: 250px;
+}
+
+.radio-inline {
+    display: inline-block;
+    text-align: center;
+}
+
+.panel-body {
+    text-align:start;
+}
+
+.panel-heading {
+    background: green;
+    max-width: 300px;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+.btn {
+    border-radius: 8px;
+    padding: 8px 12px;
+    border: #4CAF50;
+}

@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casa Dental Clinic</title>
+    <link rel="stylesheet" href="styles.css" href="">
+   </head>
+<body>
+    <header>
+        <div class="header_container">
+            <h1>Casa Dental Clinic</h1>
+            <nav>
+                <ul>
+                    <li><a href="hometrial_index.html"  class="active">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="admin.html">Admin Only</a></li>
+                      </ul>
+            </nav>
+        </div>
+        </header>
+
+    <section id="hero">
+        <div class="container">
+            <h2>Make Your Smiles A Brighter One</h2>
+            <p>Everything Starts From A Pearly Smile.</p>
+            <a href="#services" class="cta-button">Click Here To Learn More</a>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Our Services</h2>
+        <div class="services_container">
+            <div class="service">
+                <img class="Casa Dental Clinic Interface" src="Casa Dental Clinic Interface.jpg" alt="">
+                <h3>General Dentistry</h3>
+                <p>Routine check-ups, cleanings, and fillings.</p>
+            </div>
+            <div class="service">
+                <img class="Casa Dental Clinic Interface" src="Casa Dental Clinic Interface.jpg" alt="">
+                <h3>Cosmetic Dentistry</h3>
+                <p>Whitening, veneers, and smile makeovers.</p>
+            </div>
+            <div class="service">
+                <img class="Casa Dental Clinic Interface" src="Casa Dental Clinic Interface.jpg" alt="">
+                <h3>Orthodontics</h3>
+                <p>Braces, Invisalign, and other teeth-straightening options.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-container">
+            <h2>About Us</h2>
+            <p>At Casa Dental Clinic, we are dedicated to providing the best and quality dental care in a friendly and comfortable environment. Our professional team is here to help you achieve and maintain a healthy, beautiful smile.</p>
+        </div>
+    </section>
+
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team_container">
+            <div class="team-member">
+                <img src="Dr Charles Ramsay.jpg" alt="">
+                <h3>Dr. Charles Ramsay</h3>
+                <p>Head Dentist</p>
+            </div>
+            <div class="team-member">
+                <img src="Dr Hennesy Chu.jpg" alt="">
+                <h3>Dr. Hennessy Chu</h3>
+                <p>Dentist First Assistant</p>
+            </div>
+            <div class="team-member">
+                <img src="Dr James Gordon.jpg" alt="">
+                <h3>Dr. James Gordon</h3>
+                <p>Orthodontist</p>
+             </div>   
+             <div class="team-member">
+                <img src="Dr Pearl Williams.jpg" alt="">
+                <h3>Dr. Pearl Williams</h3>
+                <p>Dentist Second Assistant</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Address: 148 Casa Avenue, CAA, ST 148</p>
+            <p>Phone: (124)-600-7110</p>
+            <p>Email: info@casadentals.com</p>
+        </div>
+    </section>
+
+    <section id="bookAppointment">
+        <div class="container">
+        <div class="row col-md-6 col-md-offset-3">
+            <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h1>Book Appointment</h1>
+            </div>
+            <div class="panel-body">
+                <form action="connect.php" method="post">
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input
+                    type="text"
+                    class="form-control"
+                    id="firstName"
+                    name="firstName"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input
+                    type="text"
+                    class="form-control"
+                    id="lastName"
+                    name="lastName"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="others">Others(if any)</label>
+                    <input
+                    type="text"
+                    class="form-control"
+                    id="others"
+                    name="others"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="gender">Gender:</label>
+                    <div>
+                    <label for="male" class="radio-inline"
+                        ><input
+                        type="radio"
+                        name="gender"
+                        value="m"
+                        id="male"
+                        />Male</label
+                    >
+                    <label for="female" class="radio-inline"
+                        ><input
+                        type="radio"
+                        name="gender"
+                        value="f"
+                        id="female"
+                        />Female</label
+                    >
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="time">Time</label>
+                    <input
+                    type="time"
+                    class="form-control"
+                    id="time"
+                    name="time"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="date">Select Date</label>
+                    <input
+                    type="date"
+                    class="form-control"
+                    id="date"
+                    name="date"
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="number">Phone Number</label>
+                    <input
+                    type="number"
+                    class="form-control"
+                    id="number"
+                    name="number"
+                    />
+                </div>
+                <input type="submit" class="btn"/>
+                </form>
+            </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+  </body>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Casa Dental Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
